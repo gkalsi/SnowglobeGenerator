@@ -176,7 +176,8 @@ def AddSnowToImage(path):
                  append_images=frames[1:],
                  save_all=True,
                  duration=FRAME_DELAY,
-                 loop=1)
+                 loop=1,
+                 disposal=2)
 
 
 if __name__ == "__main__":
